@@ -1,0 +1,90 @@
+/* Mobile First Approach */
+@media (max-width: 768px) {
+  /* Header */
+  .main-nav ul {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: var(--white);
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    box-shadow: var(--box-shadow);
+    transform: translateY(-150%);
+    transition: transform 0.3s ease;
+    z-index: 99;
+  }
+
+  .main-nav ul.active {
+    transform: translateY(0);
+  }
+
+  .main-nav li {
+    margin: 10px 0;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 80px 0;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  /* Newsletter Form */
+  .newsletter-form {
+    flex-direction: column;
+  }
+
+  .newsletter-form input {
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .newsletter-form button {
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  /* Contact Grid */
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* About Team */
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Hero */
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  /* Posts Grid */
+  .posts-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Page Header */
+  .page-header h1 {
+    font-size: 2rem;
+  }
+
+  /* Footer */
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+}

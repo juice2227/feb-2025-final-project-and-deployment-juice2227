@@ -1,25 +1,49 @@
-# Final Project and Deployment
+# TechBlog - A Multi-page Blog Website
 
-## Objectives
-Build a fully functional web application.
-Apply HTML, CSS, and JavaScript concepts learned.
-Deploy the project using GitHub Pages, Netlify, or Vercel.
+TechBlog is a responsive, multi-page blog website built with HTML5, CSS3, and JavaScript. It showcases modern web development techniques including semantic HTML, responsive design, form validation, and interactive elements.
 
-## Instructions
-Choose one of the following project ideas:
-Blog Website: Implement a multi-page site with navigation.
-Ecommerce Website: Implement a multi-page site with navigation.
+## Features
 
->[!NOTE]
-> - Include at least:
-> - A responsive design.
-> - JavaScript interactivity.
-> - A deployment link.
+- **Responsive Design**: Works on all device sizes
+- **Semantic HTML5**: Proper use of semantic elements
+- **CSS3 Styling**: Modern styling with CSS variables and transitions
+- **JavaScript Interactivity**: Form validation, mobile menu toggle
+- **Accessibility**: ARIA attributes, semantic structure
+- **Multi-page Navigation**: Home, About, and Contact pages
 
-## Tasks
+## Pages
 
-Create a well-structured HTML5 document.
-Use at least 5 different HTML elements.
-Ensure semantic correctness.
+1. **Home Page**:
+   - Featured blog posts
+   - Newsletter subscription form
+   - Responsive grid layout
 
-Good luck and happy coding! 🚀💻
+2. **About Page**:
+   - Company information
+   - Team member profiles
+   - Mission statement
+
+3. **Contact Page**:
+   - Contact form with validation
+   - Contact information
+   - Success message display
+
+## Technologies Used
+
+- HTML5
+- CSS3 (with CSS variables)
+- JavaScript (ES6)
+- Font Awesome (for icons)
+- Google Fonts (via CDN)
+
+## Deployment
+
+The website is deployed on GitHub Pages. You can access the live version at:
+
+[Live Demo](https://yourusername.github.io/blog-website)
+
+## How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/juice2227/blog-website.git
