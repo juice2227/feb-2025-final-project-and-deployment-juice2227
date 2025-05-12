@@ -38,12 +38,12 @@ TechBlog is a responsive, multi-page blog website built with HTML5, CSS3, and Ja
 
 ## Deployment
 
-The website is deployed on GitHub Pages. You can access the live version at:
+The website is deployed on Netlify. You can access the live version at:
 
-[Live Demo](https://yourusername.github.io/blog-website)
+[Live Demo](https://celinetechblog.netlify.app/)
 
 ## How to Run Locally
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/juice2227/blog-website.git
+   git clone https://github.com/juice2227/feb-2025-final-project-and-deployment-juice2227.git
